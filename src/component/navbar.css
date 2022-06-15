@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: 'Inter', sans-serif;
+font-family: 'Joan', serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.8rem 2.4rem;
+    background: black;
+    align-items: center;
+}
+.logo-img{
+    width: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+    height: 120px;
+}
+.nav-links{
+    display: flex;
+    list-style-type: none;
+    gap: 1.4rem;
+}
+.nav-link{
+    color:white;
+}
+.nav-link:link,.nav-link:visited{
+    font-size: 1.8rem;
+    text-decoration: none;
+}
+.nav-link:hover{
+    color:yellow;
+}
+.link-green:link,
+.link-green:visited{
+    color: green;
+}
+.link-green:hover,
+.link-green:active{
+color: white;
+}
+.btn-link:link,
+.btn-link:visited{
+    background: green;
+    padding: 1.2rem 3.2rem;
+    box-shadow: 0px 10px 10px black;
+    border-radius: 0.2rem;
+}
+.btn-link:link,
+.btn-link:active{
+    color: white;
+    background-color: green;
+}
+ 
+
+
+
+
+
+
+
