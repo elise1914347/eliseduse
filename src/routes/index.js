@@ -9,11 +9,13 @@ import Images from "../views/Images";
 import HomeLayout from '../component/Homelayout';
 import Dashboardlayout from "../component/Dashboardlayout"
 import { AntDesignOutlined } from '@ant-design/icons';
-import AllTours from "../views/DashBoard/allTours";
-import NewTour from '../views/DashBoard/CreateTour';
-import App from '../views/DashBoard/allTours';
-import Register from "../component/register"
+import App from '../views/DashBoard/Alltours';
+import Register from "../component/register";
 
+
+import ManagerUser from "../views/DashBoard/ManagerUser";
+import ManagerTrips from '../views/DashBoard/CreateTour';
+import Dashboard from "../views/DashBoard/Dashboard"
 const Index=() =>{
     return (
         <>
@@ -30,15 +32,20 @@ const Index=() =>{
             <Route path="/register" element={<Register/>}/>   
             <Route exact path="/contactUs" element={<Contactus/>}></Route>
             <Route exact path="/images" element={<Images/>}></Route>  
-            <Route path="/tours" element={<Tours/>}/>          
+            <Route path="/tours" element={<Tours/>}/> 
+            <Route exact path="/admin" element={<Dashboardlayout/>}/>
+
+            <Route exact path="/ManagerUser" element={<ManagerUser/>}/>    
+            <Route exact path="/trips" element={<ManagerTrips/>}/>
+            <Route exact path="/Dashboard" element={<Dashboard/>}/>
         </Routes>
-        <Dashboardlayout>
+        {/* <Dashboardlayout>
             <Routes>
                 <Route exact path="/admin" element={<App/>}/>
                 <Route exact path="/admindashboard" element={<NewTour/>}/>
             </Routes>
 
-        </Dashboardlayout>
+        </Dashboardlayout> */}
         </HomeLayout>
       
  </>

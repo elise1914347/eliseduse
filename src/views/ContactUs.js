@@ -31,7 +31,7 @@ const Contact = () => {
           },
         ]}
         >
-        <Input placeholder="firstName" style={{padding:"1.5rem",background:"black"}} />
+        <Input placeholder="firstName" style={{padding:"1.5rem",background:"yellow"}} />
       </Form.Item>
       <Form.Item
         name="password"

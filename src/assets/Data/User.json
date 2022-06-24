@@ -1,0 +1,51 @@
+[
+    {
+        "name":"elise",
+        "email":"eliseduse@gmail.com",
+        "gender":"female",
+        "home":"muhanga",
+        "age":"20",
+        "isActive":"false",
+        "about":"Rwanda is superb for primates in general, including the Syke monkey, the Golden monkey etc. Rwanda has so much to offer from its magnificent scenery and unique experiences",
+        "phone":"+250785214483",
+        "profilePicture":"https://play-lh.googleusercontent.com/I-Yd5tJnxw7Ks8FUhUiFr8I4kohd9phv5sRFHG_-nSX9AAD6Rcy570NBZVFJBKpepmc=w240-h480-rw"
+        
+    },
+    {
+        "name":"irase",
+        "email":"iraseduse@gmail.com",
+        "gender":"female",
+        "home":"muhanga",
+        "age":"23",
+        "isActive":true,
+        "about":"Rwanda is superb for primates in general, including the Syke monkey, the Golden monkey etc. Rwanda has so much to offer from its magnificent scenery and unique experiences",
+        "phone":"+250785614483",
+        "profilePicture":"https://play-lh.googleusercontent.com/I-Yd5tJnxw7Ks8FUhUiFr8I4kohd9phv5sRFHG_-nSX9AAD6Rcy570NBZVFJBKpepmc=w240-h480-rw"
+        
+    },
+    {
+        "name":"marie",
+        "email":"marieduse@gmail.com",
+        "gender":"female",
+        "home":"muhanga",
+        "age":"40",
+        "isActive":true,
+        "about":"Rwanda is superb for primates in general, including the Syke monkey, the Golden monkey etc. Rwanda has so much to offer from its magnificent scenery and unique experiences",
+        "phone":"+250785244483",
+        "profilePicture":"https://play-lh.googleusercontent.com/I-Yd5tJnxw7Ks8FUhUiFr8I4kohd9phv5sRFHG_-nSX9AAD6Rcy570NBZVFJBKpepmc=w240-h480-rw"
+        
+    },
+    {
+        "name":"chris",
+        "email":"chriss@gmail.com",
+        "gender":"male",
+        "home":"muhanga",
+        "age":"10",
+        "isActive":true,
+        "about":"Rwanda is superb for primates in general, including the Syke monkey, the Golden monkey etc. Rwanda has so much to offer from its magnificent scenery and unique experiences",
+        "phone":"+250785314483",
+        "profilePicture":"https://play-lh.googleusercontent.com/I-Yd5tJnxw7Ks8FUhUiFr8I4kohd9phv5sRFHG_-nSX9AAD6Rcy570NBZVFJBKpepmc=w240-h480-rw",
+        "photos":"https://image.shutterstock.com/image-photo/group-tourists-pisa-italy-friends-260nw-379231855.jpg"
+        
+    }
+]

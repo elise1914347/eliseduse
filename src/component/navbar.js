@@ -44,6 +44,7 @@ const Nav= ()=>{
                                        <li><a href="tours" className="nav-link btn-link">
                                        Tours
                                        </a></li>
+                                       {/* <li><a href='admindash' >admindash</a></li> */}
                                        <Button type="primary" style={{background:"green"}} onClick={showModal}>
         Sign-In
       </Button>
