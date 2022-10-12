@@ -9,7 +9,7 @@ import Images from "../views/Images";
 import HomeLayout from '../component/Homelayout';
 import Dashboardlayout from "../component/Dashboardlayout"
 import { AntDesignOutlined } from '@ant-design/icons';
-import App from '../views/DashBoard/Alltours';
+// import App from '../views/DashBoard/Alltours';
 import Register from "../component/register";
 
 
